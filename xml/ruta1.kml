@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <kml xmlns="http://www.opengis.net/kml/2.2">
+        <Document>
+            <name>Cascada_Grunas.kml</name>
+            <description>Ruta: Cascada Grunas</description>
+            <Placemark>
+            <name>Cascada Grunas</name>
+            <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <coordinates>
+                19.782381300238004,42.38958588071505,0.0 19.782989327495567,42.38568761781125,0.0 19.794731173033746,42.37728140142165,0.0
+                </coordinates>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LineString>
+            <Style> id='lineaRoja'>
+                <LineStyle>
+                <color>#ff0000ff</color>
+                <width>5</width>
+                </LineStyle>
+            </Style>
+            </Placemark>
+        </Document>
+    </kml>
+    

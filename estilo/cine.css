@@ -1,0 +1,12 @@
+/*Especificidad: 011*/
+input[type="submit"] {
+    background-color: #D2FBA4;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/*Especificidad: 021*/
+input[type="submit"]:hover{
+    background-color: #45a049;
+}

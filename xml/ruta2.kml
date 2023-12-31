@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <kml xmlns="http://www.opengis.net/kml/2.2">
+        <Document>
+            <name>Rragam.kml</name>
+            <description>Ruta: Rragam</description>
+            <Placemark>
+            <name>Rragam</name>
+            <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <coordinates>
+                19.88251803340144,42.44863597216435,0.0 19.93624988772754,42.461473315413855,0.0 19.927066004375035,42.465810584965936,0.0
+                </coordinates>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LineString>
+            <Style> id='lineaRoja'>
+                <LineStyle>
+                <color>#ff0000ff</color>
+                <width>5</width>
+                </LineStyle>
+            </Style>
+            </Placemark>
+        </Document>
+    </kml>
+    

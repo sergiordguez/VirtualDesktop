@@ -1,0 +1,32 @@
+/*Especificidad: 002*/
+section h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Especificidad: 011*/
+input[type="text"] {
+    border: 0;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+/*Especificidad: 001*/
+button{
+    background-color: #D2FBA4; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+}
+
+/*Especificidad: 011*/
+button:hover{
+    background-color: #45a049;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0">
+<polyline points="19.77058409149333,42.3552772668226 29.762160461391172,52.35631742601172 39.74868716041685,62.364877799496014" style="fill:white;stroke:red;stroke-width:4" />
+<text x="19.77058409149333" y="42.3552772668226" style="writing-mode: tb; glyph-orientation-vertical: 0;">
+    Nderlysaj. Inicio de la ruta
+</text>
+<text x="29.762160461391172" y="52.35631742601172" style="writing-mode: tb; glyph-orientation-vertical: 0;">
+    Puesto de bebidas
+</text>
+<text x="39.74868716041685" y="62.364877799496014" style="writing-mode: tb; glyph-orientation-vertical: 0;">
+    Ojo Azul
+</text>
+</svg>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rutas xmlns="http://www.uniovi.es"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.uniovi.es rutas.xsd">
+    <ruta>
+        <nombre>Cascada Grunas</nombre>
+        <tipo>Paisajística</tipo>
+        <medio_transporte>A pie</medio_transporte>
+        <fecha_inicio>2022-12-13</fecha_inicio>
+        <hora_inicio>2022-12-13T11:00:00</hora_inicio>
+        <duracion>PT2H20M</duracion>
+        <agencia>Sin agencia</agencia>
+        <descripcion>Ruta circular a la Cascada de Grunas, en el valle de Theth, Albania</descripcion>
+        <personas_adecuadas>Personas en buena forma física</personas_adecuadas>
+        <inicio>Shkodër</inicio>
+        <referencias_bibliografia>
+            <referencia name="https://www.komoot.com/es-es/tour/357359002"></referencia>
+            <referencia name="https://www.turismoalbania.es/naturaleza-de-albania/cascada-de-grunas/"></referencia>
+            <referencia name="https://www.mypacer.com/es/routes/351351/ruta-cascada-grunas-escalar-sendero-shkod%C3%ABr-albania"/>
+        </referencias_bibliografia>
+        <recomendacion>7</recomendacion>
+        <hitos>
+            <hito>
+                <nombre>Klsha e Thethit</nombre>
+                <descripcion>Castillo medieval</descripcion>
+                <coordenadas>42.38958588071505, 19.782381300238004</coordenadas>
+                <distancia_anterior>800</distancia_anterior>
+                <galeria_fotografias>
+                    <fotografia name="Klsha.jpg"/>
+                </galeria_fotografias>
+            </hito>
+            <hito>
+                <nombre>Kulla e Mhill Gjonit</nombre>
+                <descripcion>Cabaña al lado del paseo</descripcion>
+                <coordenadas>42.38568761781125, 19.782989327495567</coordenadas>
+                <distancia_anterior>1000</distancia_anterior>
+                <galeria_fotografias>
+                    <fotografia name="Kulla.jpg"/>
+                </galeria_fotografias>
+            </hito>
+            <hito>
+                <nombre>Cascada Grunas</nombre>
+                <descripcion>Salto de agua de 30 metros proveniente del deshielo de las montañas</descripcion>
+                <coordenadas>42.37728140142165, 19.794731173033746</coordenadas>
+                <distancia_anterior>2000</distancia_anterior>
+                <galeria_fotografias>
+                    <fotografia name="Cascada.jpg"/>
+                </galeria_fotografias>
+            </hito>
+        </hitos>
+    </ruta>
+    <ruta>
+        <nombre>Rragam</nombre>
+        <tipo>Paisajística</tipo>
+        <medio_transporte>A pie</medio_transporte>
+        <fecha_inicio>2022-11-02</fecha_inicio>
+        <hora_inicio>2022-11-02T11:00:00</hora_inicio>
+        <duracion>PT6H2M</duracion>
+        <agencia>Sin agencia</agencia>
+        <descripcion>Los alpes albaneses son la joya de la corona de Albania, y haciendo esta ruta puedes comprobarlo</descripcion>
+        <personas_adecuadas>Personas en buena forma física</personas_adecuadas>
+        <inicio>Theth</inicio>
+        <referencias_bibliografia>
+            <referencia name="https://www.lamochilademama.com/ruta-de-valbona-a-theth-albania/"></referencia>
+            <referencia name="https://es.wikiloc.com/rutas-senderismo/theth-collado-valvona-rragam-alpes-albaneses-albania-121206007"></referencia>
+            <referencia name="https://viajeros30.com/2019/08/21/ruta-de-valbona-a-theth-trekking-alpes-albaneses/"/>
+        </referencias_bibliografia>
+        <recomendacion>8</recomendacion>
+        <hitos>
+            <hito>
+                <nombre>Collado Valbona</nombre>
+                <descripcion>Alpes Albaneses</descripcion>
+                <coordenadas>42.44863597216435, 19.88251803340144</coordenadas>
+                <distancia_anterior>1845</distancia_anterior>
+                <galeria_fotografias>
+                    <fotografia name="Collado.jpg"/>
+                </galeria_fotografias>
+            </hito>
+            <hito>
+                <nombre>Cascada</nombre>
+                <descripcion>Pequeña cascada perfecta para hacer un pequeño descanso con buenas vistas</descripcion>
+                <coordenadas>42.461473315413855, 19.93624988772754</coordenadas>
+                <distancia_anterior>1293</distancia_anterior>
+                <galeria_fotografias>
+                    <fotografia name="Cascada-intermedio.jpg"/>
+                </galeria_fotografias>
+            </hito>
+            <hito>
+                <nombre>Senda por el bosque</nombre>
+                <descripcion>Senda por el bosque antes de la llegada al final de nuestra ruta</descripcion>
+                <coordenadas>42.465810584965936, 19.927066004375035</coordenadas>
+                <distancia_anterior>1641</distancia_anterior>
+                <galeria_fotografias>
+                    <fotografia name="Senda.jpg"/>
+                </galeria_fotografias>
+            </hito>
+        </hitos>
+    </ruta>
+    <ruta>
+        <nombre>Syri i Kalter</nombre>
+        <tipo>Paisajística</tipo>
+        <medio_transporte>A pie</medio_transporte>
+        <fecha_inicio>2023-02-12</fecha_inicio>
+        <hora_inicio>2023-02-12T09:00:00</hora_inicio>
+        <duracion>PT3H11M</duracion>
+        <agencia>Sin agencia</agencia>
+        <descripcion>El "Ojo Azul" es una visita obligada y uno de los paisajes más populares de los Alpes Albaneses</descripcion>
+        <personas_adecuadas>Personas en buena forma física</personas_adecuadas>
+        <inicio>Ndërlysaj</inicio>
+        <referencias_bibliografia>
+            <referencia name="https://es.wikiloc.com/rutas-senderismo/ojo-azul-nderlysaj-alpes-albaneses-albania-121408288"></referencia>
+            <referencia name="https://www.viajamosjuntos.net/2022/06/09/ruta-al-blue-eye-theth-ojo-azul-en-los-alpes-albaneses/"></referencia>
+            <referencia name="https://www.turismoalbania.es/naturaleza-de-albania/ojo-azul-de-theth/"/>
+        </referencias_bibliografia>
+        <recomendacion>9</recomendacion>
+        <hitos>
+            <hito>
+                <nombre>Nderlysaj. Inicio de la ruta</nombre>
+                <descripcion>Inicio de la ruta donde podremos estacionar nuestro automóvil</descripcion>
+                <coordenadas>42.3552772668226, 19.77058409149333</coordenadas>
+                <distancia_anterior>0</distancia_anterior>
+                <galeria_fotografias>
+                    <fotografia name="Nderlysaj.jpg"/>
+                </galeria_fotografias>
+            </hito>
+            <hito>
+                <nombre>Puesto de bebidas</nombre>
+                <descripcion>Antiguo puesto de bebidas cerca del sendero</descripcion>
+                <coordenadas>42.35631742601172, 19.762160461391172</coordenadas>
+                <distancia_anterior>1000</distancia_anterior>
+                <galeria_fotografias>
+                    <fotografia name="Puesto.jpg"/>
+                </galeria_fotografias>
+            </hito>
+            <hito>
+                <nombre>Ojo Azul</nombre>
+                <descripcion>Lago de agua cristalina situado entre montañas de los Alpes Albaneses</descripcion>
+                <coordenadas>42.364877799496014, 19.748687160416846</coordenadas>
+                <distancia_anterior>2000</distancia_anterior>
+                <galeria_fotografias>
+                    <fotografia name="OjoAzul.jpg"/>
+                </galeria_fotografias>
+            </hito>
+        </hitos>
+    </ruta>
+</rutas>

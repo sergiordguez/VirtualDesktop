@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Escritorio Virtual - Sudoku</title>
+
+    <meta name="author" content="Sergio Rodriguez Garcia" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/sudoku.css" />
+    <link rel="icon" href="multimedia/imagenes/favicon.ico" />
+    <script src="js/sudoku.js"></script>
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>    
+        <h1>Escritorio Virtual</h1>
+        <nav>
+            <a title="Escritorio"
+                accesskey="E"
+                tabindex="1"
+                href="index.html">Escritorio</a>
+            <a title="Sobre Mi"
+                accesskey="S"
+                tabindex="2"
+                href="sobremi.html">Sobre mí</a>
+            <a title="Noticias"
+                accesskey="N"
+                tabindex="3"
+                href="noticias.html">Noticias</a>
+            <a title="Agenda"
+                accesskey="A"
+                tabindex="4"            
+                href="agenda.html">Agenda</a>
+            <a title="Meteorologia"
+                accesskey="M"
+                tabindex="5"
+                href="meteorologia.html">Meteorología</a>
+            <a title="Viajes"
+                accesskey="V"
+                tabindex="6"
+                href="viajes.php">Viajes</a>
+            <a title="Juegos"
+                accesskey="J"
+                tabindex="7"
+                href="juegos.html">Juegos</a>
+        </nav>
+    </header>
+
+    <h2>Juegos</h2>
+
+    <nav>
+        <a title="Memoria"
+            accesskey="M"
+            tabindex="8"
+            href="memoria.html">Juego de memoria</a>
+        <a title="Sudoku"
+            accesskey="S"
+            tabindex="9"
+            href="sudoku.html">Sudoku</a>
+        <a title="Crucigrama"
+            accesskey="C"
+            tabindex="10"
+            href="crucigrama.php">Crucigrama</a>
+        <a title="Lienzo"
+            accesskey="L"
+            tabindex="11"
+            href="api.html">Lienzo</a>
+        <a title="Cartelera"
+            accesskey="C"
+            tabindex="12"
+            href="cine.php">Cartelera</a>
+    </nav>
+
+    <h3>Sudoku</h3>
+    
+    <main></main>
+    
+    <script>
+        const sudoku = new Sudoku();
+
+        document.addEventListener('keydown', (event) => {
+            const key = event.key;
+            sudoku.handleKeyPress(key);
+        });
+    </script>
+</body>
+</html>

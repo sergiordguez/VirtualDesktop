@@ -1,0 +1,45 @@
+/*Especificidad: 001*/
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Especificidad: 001*/
+main {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 0;
+    border: 2px solid #010100;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+/*Especificidad: 012*/
+main p:nth-child(3n){
+    border-right: 2px solid #010100;
+}
+
+/*Especificidad: 012*/
+main p[data-fila="2"], main p[data-fila="5"]{
+    border-bottom: 2px solid #010100;
+}
+
+/*Especificidad: 001*/
+p{
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    border: 1px solid #808080;
+}
+
+/*Especificidad: 011*/
+p[data-state="clicked"]{
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    border: 1px solid #808080;
+    background-color: #D2FBA4;
+}

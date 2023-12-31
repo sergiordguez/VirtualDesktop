@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Escritorio Virtual - Sobre Mi</title>
+
+    <meta name="author" content="Sergio Rodriguez Garcia" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" href="multimedia/imagenes/favicon.ico" />
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>    
+        <h1>Escritorio Virtual</h1>
+        <nav>
+            <a title="Escritorio"
+                accesskey="E"
+                tabindex="1"
+                href="index.html">Escritorio</a>
+            <a title="Sobre Mi"
+                accesskey="S"
+                tabindex="2"
+                href="sobremi.html">Sobre mí</a>
+            <a title="Noticias"
+                accesskey="N"
+                tabindex="3"
+                href="noticias.html">Noticias</a>
+            <a title="Agenda"
+                accesskey="A"
+                tabindex="4"            
+                href="agenda.html">Agenda</a>
+            <a title="Meteorologia"
+                accesskey="M"
+                tabindex="5"
+                href="meteorologia.html">Meteorología</a>
+            <a title="Viajes"
+                accesskey="V"
+                tabindex="6"
+                href="viajes.php">Viajes</a>
+            <a title="Juegos"
+                accesskey="J"
+                tabindex="7"
+                href="juegos.html">Juegos</a>
+        </nav>
+    </header>
+
+    <h2>Sobre Mi</h2>
+
+    <picture>
+        <source srcset="multimedia/imagenes/foto-personal-movil.jpg" media="(max-width: 465px)">
+        <source srcset="multimedia/imagenes/foto-personal-tablet.jpg" media="(max-width: 799px)">
+        <img src="multimedia/imagenes/foto-personal-movil.jpg" alt="Foto personal DNI">
+    </picture>
+
+    <p>Nombre: <strong>Sergio Rodríguez García</strong></p>
+    <p>Identificador: <strong>UO282598</strong></p>
+    <p>Correo: <strong>UO282598@uniovi.es</strong></p>
+    
+
+    <p>Soy estudiante de Ingenieria Informática del Software, tengo 21 años y vivo en una pequeña localidad asturiana llamada Moreda de Aller</p>
+
+    <section>
+        <h3>Aficiones</h3>
+        <ul>
+            <li>Deportes
+            <ul>
+                <li>Fútbol</li>
+                <li>Natación</li>
+            </ul></li>
+            <li>Videojuegos
+            <ul>
+                <li>FIFA</li>
+                <li>NBA2K</li>
+            </ul></li>
+            <li>Dibujar</li>
+            <li>Cine</li>
+            <li>Viajar</li>
+        </ul>
+        <p>Este es un video de mi jugador de fútbol favorito</p>
+        <video controls preload="auto">
+            <source src="multimedia/videos/video-sobremi.mp4"
+                type="video/mp4" />
+            <source src="multimedia/videos/video-sobremi.webm"
+                type="video/webm" />
+        </video>
+    </section>
+
+    <section>
+        <h3>Grupos musicales o cantantes favoritos</h3>
+        <ol>
+            <li>Post Malone</li>
+            <li>Eladio Carrion</li>
+            <li>The Weekend</li>
+            <li>Feid</li>
+            <li>Rels B</li>
+        </ol>
+        <p>Este es un audio de mi canción favorita</p>
+        <audio controls>
+            <source src="multimedia/audios/audio-sobremi.mp3"
+                type="audio/mpeg"/>
+            <source src="multimedia/audios/audio-sobremi.wav"
+                type="audio/wav" />
+        </audio>
+    </section>
+
+    <section>
+        <h3>Las cinco asignaturas que mas me han gustado del grado</h3>
+        <dl>
+            <dt>FCR</dt>
+                <dd>Fundamentos de Computadores y Redes: Asignatura del segundo semestre del primer curso de Ingenieria Informática del Software</dd>
+            <dt>ED</dt>
+                <dd>Estructura de Datos: Asignatura del primer semestre del segundo curso de Ingenieria Informática del Software</dd>
+            <dt>SDM</dt>
+                <dd>Software para Dispositivos Móviles: Asignatura optativa del primer semestre de Ingenieria Informática del Software</dd>
+            <dt>SO</dt>
+                <dd>Sistemas Operativos: Asignatura del segundo semestre del segundo curso de Ingenieria Informática del Software</dd>
+            <dt>ALG</dt>
+                <dd>Algoritmia: Asignatura del segundo semestre del segundo curso de Ingenieria Inforática del Software</dd>
+        </dl>
+        <p>Página principal de la
+        <a href="https://ingenieriainformatica.uniovi.es/inicio">Escuela de Ingenieria Informática</a>
+        </p>
+    </section>
+
+    <article>
+        <h3>Temperaturas anuales de Moreda de Aller en los últimos 10 años</h3>
+        <table>
+            <caption>Temperaturas anuales durante los últimos 10 años en Moreda de Aller</caption>
+            <tr>
+                <th scope="col" id="indice">Año/Temperatura media</th>
+                <th scope="col" id="media">Temperatura media</th>
+            </tr>
+            <tr>
+                <th scope="row" id="2013" headers="indice">2013</th>
+                <td headers="2013 media">11.7</td>
+            </tr>
+            <tr>
+                <th scope="row" id="2014" headers="indice">2014</th>
+                <td headers="2014 media">11.8</td>
+            </tr>
+            <tr>
+                <th scope="row" id="2015" headers="indice">2015</th>
+                <td headers="2015 media">11.6</td>
+            </tr>
+            <tr>
+                <th scope="row" id="2016" headers="indice">2016</th>
+                <td headers="2016 media">11.4</td>
+            </tr>
+            <tr>
+                <th scope="row" id="2017" headers="indice">2017</th>
+                <td headers="2017 media">11.8</td>
+            </tr>
+            <tr>
+                <th scope="row" id="2018" headers="indice">2018</th>
+                <td headers="2018 media">11.5</td>
+            </tr>
+            <tr>
+                <th scope="row" id="2019" headers="indice">2019</th>
+                <td headers="2019 media">12.1</td>
+            </tr>
+            <tr>
+                <th scope="row" id="2020" headers="indice">2020</th>
+                <td headers="2020 media">12.5</td>
+            </tr>
+            <tr>
+                <th scope="row" id="2021" headers="indice">2021</th>
+                <td headers="2021 media">13.7</td>
+            </tr>
+            <tr>
+                <th scope="row" id="2022" headers="indice">2022</th>
+                <td headers="2022 media">12.5</td>
+            </tr>
+        </table>
+        <p>Información sobre las temperaturas anuales en Moreda de Aller obtenidas de
+            <a href="https://es.meteosolana.net/estacion/1226X">meteosolana</a>
+        </p>
+    </article>
+</body>
+</html>

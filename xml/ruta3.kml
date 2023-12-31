@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <kml xmlns="http://www.opengis.net/kml/2.2">
+        <Document>
+            <name>Syri_i_Kalter.kml</name>
+            <description>Ruta: Syri i Kalter</description>
+            <Placemark>
+            <name>Syri i Kalter</name>
+            <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <coordinates>
+                19.77058409149333,42.3552772668226,0.0 19.762160461391172,42.35631742601172,0.0 19.748687160416846,42.364877799496014,0.0
+                </coordinates>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LineString>
+            <Style> id='lineaRoja'>
+                <LineStyle>
+                <color>#ff0000ff</color>
+                <width>5</width>
+                </LineStyle>
+            </Style>
+            </Placemark>
+        </Document>
+    </kml>
+    

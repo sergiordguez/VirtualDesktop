@@ -1,0 +1,26 @@
+/*Especificidad: 001*/
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Especificidad: 001*/
+main {
+    border: 2px dashed #4F565EFD;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*Especificidad: 001*/
+form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Especificidad: 001*/
+canvas{
+    position: relative;
+    border: 2px solid #010100;
+}

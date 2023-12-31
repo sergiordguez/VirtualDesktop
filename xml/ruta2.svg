@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0">
+<polyline points="19.88251803340144,42.44863597216435 29.93624988772754,52.461473315413855 39.927066004375035,62.465810584965936" style="fill:white;stroke:red;stroke-width:4" />
+<text x="19.88251803340144" y="42.44863597216435" style="writing-mode: tb; glyph-orientation-vertical: 0;">
+    Collado Valbona
+</text>
+<text x="29.93624988772754" y="52.461473315413855" style="writing-mode: tb; glyph-orientation-vertical: 0;">
+    Cascada
+</text>
+<text x="39.927066004375035" y="62.465810584965936" style="writing-mode: tb; glyph-orientation-vertical: 0;">
+    Senda por el bosque
+</text>
+</svg>
